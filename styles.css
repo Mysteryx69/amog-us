@@ -1,0 +1,63 @@
+body {margin-top: 0 ;
+margin-right: 0 ;
+margin-left: 0 ;
+text-align: center;}
+
+.top {background-color: #EFFFFD;
+margin: 30px 0;
+margin-top: 0;
+text-align: center; margin-bottom: 30px;}
+
+.heading-img {width: 20%;}
+
+.sub-img {width: 25%;}
+
+h1 {font-family: 'Dancing Script', cursive; 
+margin: 0 auto 0 auto;
+padding-top: 80px;
+padding-bottom: 30px;
+margin-bottom: 20px;
+color: #42C2FF;
+font-size: 4em;
+font-weight: bold;}
+
+
+p,h2 {color: #42C2FF;
+    font-family: 'Ubuntu Mono', monospace;}
+
+.info {color: #484b4d}
+
+    .image {margin-top: 30px;}
+
+    .first {position: relative;
+    right: 85px;
+    bottom: 250px}
+
+    .second {position: relative;
+    left: 50px;
+    bottom: 170px;}
+
+    .reason-1 {width: 50%;
+        margin: 100px auto 100px auto;
+        text-align: left;
+    }
+
+    .dancing-amogus {width: 25%;
+    border-radius: 100%;
+float: right;}
+
+.dancing-amogus-2 {width: 25%;
+    border-radius: 100%;
+float: left;
+margin-right: 20px;}
+
+.intro {width: 50%;
+margin: auto;}
+.cool {width: 30%;
+border-radius: 100%;}
+
+@media (max-width: 860px) {
+    .first,.second {
+      display: none;
+    }
+  }
